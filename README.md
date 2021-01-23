@@ -1,7 +1,7 @@
 # TechnoBot
 ### TechnoBot is a Simple, Self Hosted Discord bot for delivering Technoblade Quotes.
 #### How to setup
-##### TechnoBot is actually hosted, you can invite the built version here: https://discord.com/oauth2/authorize?client_id=802496612575215616&scope=bot&permissions=8
+> TechnoBot is actually hosted, you can invite the built version here: https://discord.com/oauth2/authorize?client_id=802496612575215616&scope=bot&permissions=8
 > Note you must have a discord developer account with a bot application to use TechnoBot. If you haven't done so, follow this guide: https://discordpy.readthedocs.io/en/latest/discord.html
 
  1. Clone this repo
