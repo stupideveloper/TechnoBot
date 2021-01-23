@@ -1,7 +1,7 @@
 {
   "name": "TechnoBOt",
   "version": "1.0.0",
-  "main": "src/bot.js",
+  "main": "server.js",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^12.5.1",
