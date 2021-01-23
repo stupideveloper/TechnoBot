@@ -100,16 +100,18 @@ var quotes = [
 require('dotenv').config()
 const Discord = require('discord.js');
 const client = new Discord.Client();
+
 console.log("✨ Connecting to discord bot ✨");
 client.on('ready', () => {
   console.log(`Authenticated as ${client.user.tag}!`);
   console.log("✨ Ready for requests ✨");
+  client.user.setActivity("Technoblade", { type: "WATCHING"});
 });
 client.on('message', msg => {
   if (msg.content === 'TechnoQuote') {
     var randomNumber = Math.floor(Math.random() * quotes.length)
     msg.reply("“" + quotes[randomNumber] + "”");
-    console.log("“" + quotes[randomNumber] + "”")
+    console.log("“" + quotes[randomNumber] + "”");
   }
 });
 
