@@ -10,4 +10,4 @@
  4. Add `TOKEN=[Insert your bot token here (without square brackets)]` in your `.env`
  5. Run `yarn start` or `npm start`
  7. Run TechnoQuote in your discord server
- 6. ✨ Enjoy TechnoBot ✨
+ 6. ✨Enjoy TechnoBot✨
