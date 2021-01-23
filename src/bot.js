@@ -1,4 +1,3 @@
-port = process.env.PORT || 80
 /* Quotes ( Yeah ik its scuffed dont @ me)*/
 /* You can add it to another file if you want */
 
