@@ -105,7 +105,7 @@ console.log("✨ Connecting to discord bot ✨");
 client.on('ready', () => {
   console.log(`Authenticated as ${client.user.tag}!`);
   console.log("✨ Ready for requests ✨");
-  client.user.setActivity("use 'TechnoQuote', { type: "WATCHING"});
+  client.user.setActivity("use `TechnoQuote`, { type: "WATCHING"});
 });
 client.on('message', msg => {
   if (msg.content === 'TechnoQuote') {
