@@ -117,3 +117,11 @@ client.on('message', msg => {
 });
 
 client.login(process.env.TOKEN);
+
+/* To make heroku work */
+const http = require("http");
+const host = 'localhost';
+const port = 8000;
+const requestListener = function (req, res) {
+    res.writeHead(404);
+};
